@@ -1,0 +1,43 @@
+{
+  "name": "@rezzed/poll-hooks",
+  "version": "1.0.0",
+  "description": "Async work-polling with claim semantics and lifecycle hooks",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json",
+    "test": "node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "polling",
+    "work-queue",
+    "lifecycle",
+    "hooks",
+    "claim",
+    "async",
+    "task-queue",
+    "worker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezzedai/poll-hooks.git"
+  },
+  "author": "Rezzed.ai",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

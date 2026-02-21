@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-02-20
 
 ### Added
-- Initial release of @rezzed/poll-hooks
+- Initial release of @rezzed.ai/poll-hooks
 - Priority-based task triage system with 5 priority levels (interrupt → sprint → parallel → queue → backlog)
 - Claim semantics to prevent duplicate task processing across workers
 - Full lifecycle hook system:

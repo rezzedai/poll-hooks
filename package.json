@@ -1,5 +1,5 @@
 {
-  "name": "@rezzed/poll-hooks",
+  "name": "@rezzed.ai/poll-hooks",
   "version": "1.0.0",
   "description": "Async work-polling with claim semantics and lifecycle hooks",
   "type": "module",

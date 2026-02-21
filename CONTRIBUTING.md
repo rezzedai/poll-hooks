@@ -1,4 +1,4 @@
-# Contributing to @rezzed/poll-hooks
+# Contributing to @rezzed.ai/poll-hooks
 
 Thank you for your interest in contributing to poll-hooks! We welcome contributions that improve the polling engine, lifecycle management, and documentation.
 

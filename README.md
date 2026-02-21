@@ -1,6 +1,6 @@
-# @rezzed/poll-hooks
+# @rezzed.ai/poll-hooks
 
-[![npm version](https://img.shields.io/npm/v/@rezzed/poll-hooks.svg)](https://www.npmjs.com/package/@rezzed/poll-hooks)
+[![npm version](https://img.shields.io/npm/v/@rezzed.ai/poll-hooks.svg)](https://www.npmjs.com/package/@rezzed.ai/poll-hooks)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
 
@@ -20,13 +20,13 @@ Async work-polling with claim semantics, priority triage, and lifecycle hooks.
 ## Installation
 
 ```bash
-npm install @rezzed/poll-hooks
+npm install @rezzed.ai/poll-hooks
 ```
 
 ## Quick Start
 
 ```typescript
-import { createPoller, type TaskSource, type Task, type Message } from "@rezzed/poll-hooks";
+import { createPoller, type TaskSource, type Task, type Message } from "@rezzed.ai/poll-hooks";
 
 // Implement your task source (database, API, message queue, etc.)
 class MyTaskSource implements TaskSource {
